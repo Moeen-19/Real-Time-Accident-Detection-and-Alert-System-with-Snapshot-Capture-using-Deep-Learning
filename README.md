@@ -1,4 +1,4 @@
-﻿## ACCIDENT DETECTION WITH A REPORTING SYSTEM
+﻿## ACCIDENT DETECTION & REPORTING SYSTEM WITH SNAPSHOT SHARING AND STORING MECHANISM
 
 ### Overview
 Road accidents are a critical public safety issue where early detection and rapid reporting can save lives. This project uses Deep Learning (CNN with VGG16 feature extractor) to detect accidents from video frames and automatically notifies emergency contacts with the detected location and a snapshot via SMS. The system optionally uploads the snapshot to Google Drive and shares a public link in the alert.
@@ -160,11 +160,15 @@ pip install tensorflow keras opencv-python numpy pandas scikit-image scikit-lear
 - Twilio for SMS delivery.
 - Google Drive API for snapshot sharing.
 - Nominatim and `geocoder` for location services.
+- Original project inspiration and base code: [SAI-KISHORE29](https://github.com/SAI-KISHORE29) – [Accident Detection with a Reporting System](https://github.com/SAI-KISHORE29/ACCIDENT-DETECTION-WITH-A-REPORTING-SYSTEM)
 
 ---
 
 ## License
-This project is for educational and demonstration purposes. 
+
+This project is for educational and demonstration purposes.  
+Portions of the codebase are adapted from public sources with attribution.  
+If reusing, please maintain credits and use responsibly.
 
 ---
 
